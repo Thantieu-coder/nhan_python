@@ -1,0 +1,6 @@
+.venv
+.cph
+Include
+Lib
+Scripts
+pyenv.cfg
