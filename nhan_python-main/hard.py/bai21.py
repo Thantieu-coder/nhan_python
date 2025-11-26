@@ -30,4 +30,4 @@ TCPMM=GVL+GNC
 TCC=cv*TCPMM
 print(cv)
 print(TCPMM)
-# print(TCC)
+print(TCC)

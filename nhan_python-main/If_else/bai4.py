@@ -22,7 +22,7 @@
 Temp =int(input("nhapp   "))
 if Temp>=30:
     print("rất nóng")
-elif  20<=Temp<=29:
+  elif  20<=Temp<=29:
     print("ấm áp")
 elif 10<=Temp<=29:
     print("mát mẻ")

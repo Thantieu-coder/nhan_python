@@ -30,7 +30,7 @@
 # Output: Thời tiết: Ấm áp. Gợi ý: Hoạt động bình thường.
 ND=int(input("nhap"))
 TTT=input("nhapp")
-if ND==32 and TTT=="nang":
+if ND==32 and TTT=="nang" :
     print("mát mẻ Gợi ý: Thích hợp đi chơi ngoài trời!")
 elif ND==15 and TTT=="mua":
     print("rất lạnh Gợi ý: Thích hợp đi chơi ngoài trời!")
@@ -38,3 +38,4 @@ elif ND==-5 and TTT=="tuyet:":
     print("rất lạnh Cẩn thận trượt ngã, mặc ấm và ở trong nhà")
 else :
     print("ấm áp Gợi ý: Hoạt động bình thường.")
+
