@@ -5,3 +5,6 @@
 # - **Output:** Danh sách đã xóa.
 # - **Ví dụ kiểm thử:** `['cat', 'fish']`
 # - **Gợi ý:** Có một phương thức để xóa phần tử theo giá trị.
+animals = ["cat", "dog", "fish"]
+x=animals.remove("dog")
+print(animals)
