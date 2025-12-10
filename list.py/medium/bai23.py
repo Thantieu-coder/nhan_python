@@ -9,3 +9,6 @@
 #     - Input: `[10, 20, 30]`
 #     - Output: `20.0`
 # - **Gợi ý:** Sử dụng hàm `sum()` để tính tổng và hàm `len()` để lấy số lượng phần tử.
+x=[10,20,30]
+print(sum(x)//len(x))
+
