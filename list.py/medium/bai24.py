@@ -12,6 +12,12 @@
 #     - Input: `[10, 20, 30]`, `40`
 #     - Output: `Không tìm thấy`
 # - **Gợi ý:** Duyệt danh sách bằng chỉ số (`range(len())`), dùng `if` để kiểm tra.
-x=[10,20,30,20]
-dem=0
-for i in range(len())
+# x=[10,20,30,20]
+# dem=0
+# for i in range(len(x)):
+#     if dem == x:
+#         dem+1
+
+#     if dem==2:
+
+        

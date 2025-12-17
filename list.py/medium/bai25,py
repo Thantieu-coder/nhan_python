@@ -1,0 +1,15 @@
+; **Bài 25: Lấy N phần tử đầu tiên**
+
+; - **Mô tả bài toán:** Cho một danh sách các số nguyên và một số nguyên `N`. Tạo và in một danh sách mới chứa `N` phần tử đầu tiên của danh sách gốc.
+; - **Input:**
+;     - Danh sách số nguyên (ví dụ: `[1, 2, 3, 4, 5]`)
+;     - Số `N` (ví dụ: `3`)
+; - **Output:**
+;     - Danh sách con chứa `N` phần tử đầu tiên.
+; - **Ví dụ kiểm thử:**
+;     - Input: `[1, 2, 3, 4, 5]`, `3`
+;     - Output: `[1, 2, 3]`
+; - **Gợi ý:** Sử dụng slicing `[start:end]`.
+x=[1,2,3,4,5]
+y=3
+print(x[:3])
