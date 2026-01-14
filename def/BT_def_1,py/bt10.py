@@ -30,4 +30,5 @@
 def liet_ke_snt(bat_dau,ket_thuc) -> list[int]:
     for i in range(bat_dau,ket_thuc):
         if  2 == 0:
-print(liet_ke_snt) 
+            return 
+print(liet_ke_snt(20, 22))
