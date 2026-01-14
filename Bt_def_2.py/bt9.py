@@ -26,9 +26,10 @@
 #     print(tinh_tong_theo_nguong([10, 20, 30], 50))
 #     ```
 def tinh_tong_theo_nguong(danh_sach: list[int], nguong: int) -> int:
-    tong=[]
+    tong= 0
     for i in danh_sach:
         if i > nguong:
-            return tong 
-print(tinh_tong_theo_nguong([1, 2, 3, 4, 5], 3))
+            tong=tong +i
+    return tong
+print(tinh_tong_theo_nguong([10, 20, 30], 50))
         
